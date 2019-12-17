@@ -1,0 +1,23 @@
+.source-filled {
+	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.source {
+    position: absolute;
+    max-width: 400px;
+}
+
+.slider-wrapper {
+	display: inline-block;
+	width: 20px;
+	height: 150px;
+	padding: 0;
+}
+
+.slider-wrapper input {
+	width: 150px;
+	height: 20px;
+	margin: 0;
+	transform-origin: 75px 75px;
+	transform: rotate(-90deg);
+}
