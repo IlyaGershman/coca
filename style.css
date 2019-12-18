@@ -1,23 +1,38 @@
+
+
 .source-filled {
-	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+	color: #ff0000;
+	filter: invert(26%) sepia(99%) saturate(7419%) hue-rotate(358deg) brightness(100%) contrast(112%);
+	clip: rect(400px, 400px, 400px, 0px);
 }
 
 .source {
     position: absolute;
-    max-width: 400px;
+    max-width: 300px;
+    top: 250px;
+    left: 50px;
+}
+
+.container {
+	background-image: url("./bg.png");
+    width: 800px;
+    height: 600px;
+    background-size: cover;
 }
 
 .slider-wrapper {
 	display: inline-block;
-	width: 20px;
-	height: 150px;
+	width  : 20px;
+	height : 150px;
 	padding: 0;
 }
 
 .slider-wrapper input {
-	width: 150px;
-	height: 20px;
-	margin: 0;
-	transform-origin: 75px 75px;
-	transform: rotate(-90deg);
+    width: 280px;
+    height: 20px;
+    margin: 0;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 200px;
+    top: 390px;
 }
